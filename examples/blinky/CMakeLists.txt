@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.16)
 set(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/../../cmake/stm32_gcc.cmake)
 
 # Configure here which STM32 target(s) to build
-option(BLINKY_F4_EXAMPLE "Compile F4 example" ON)
-option(BLINKY_F1_EXAMPLE "Compile F1 example" OFF)
+option(BLINKY_F4_EXAMPLE "Compile F4 example" OFF)
+option(BLINKY_F1_EXAMPLE "Compile F1 example" ON)
 option(BLINKY_L0_EXAMPLE "Compile L0 example" OFF)
 
 option(USE_CPP_FILE "Use the .cpp example file instead of the .c one" OFF)
